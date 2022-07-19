@@ -9,9 +9,9 @@ namespace StarChart.Controllers
     {
         private ApplicationDbContext _context { get; set; }
 
-        public CelestialObjectController(ApplicationDbContext dbContext)
+        public CelestialObjectController(ApplicationDbContext context)
         {
-            _context = dbContext;
+            _context = context;
         }
     }
 }
